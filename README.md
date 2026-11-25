@@ -1,49 +1,72 @@
-# Nimap Infotech – QA Machine Test
+Project Overview
 
-## Project Overview
-Testing project for the **FieldForceConnect** application.
+A Software Testing project focused on testing the functionality, usability, and validation of the FieldForceConnect web application.
 
-**Application:** https://test.fieldforceconnect.com/
+Application: https://test.fieldforceconnect.com/
 
-## Manual Testing
-Modules tested:
+Manual Testing
+
+Modules Tested:
+
 - Sign Up
 - Forgot Password
-- Sign in with OTP
+- Sign In with OTP
 - Login
 
-Activities:
-- Test case creation and execution
+Testing Activities:
+
+- Test scenario and test case creation
+- Test case execution
 - Positive and negative testing
-- Field validation
+- Functional testing
+- Field and input validation
 - Bug identification and reporting
+- Expected vs. actual result verification
 
-## Automation Testing
+Automation Testing
 
-**Tools:** Java, Selenium, Maven, TestNG, Apache POI.
+Tools & Technologies:
 
-Automated scenarios:
-- Login using test data
-- Login validation
-- Punch In and toast verification
-- Add Customer using parametrized data
+- Java
+- Selenium WebDriver
+- Maven
+- TestNG
+- Apache POI
+- Excel
 
-## Project Structure
-```text
-Nimap_Infotech/
+Automated Test Scenarios:
+
+- Login using Excel test data
+- Login functionality validation
+- Punch In functionality and toast message verification
+- Add Customer functionality using parameterized test data
+- Data-driven testing using Excel
+
+Project Structure
+
+FieldForceConnect-Testing/
+│
 ├── Automation/
 │   ├── pom.xml
 │   ├── TestData.xlsx
-│   └── src/test/java/Automation_Testing/
-│       ├── browser.java
-│       ├── data_fetch.java
-│       └── excelsheet_data.java
-└── Nimap_Manual_Testcases.xlsx
-```
+│   └── src/test/java/
+│       └── Automation_Testing/
+│           ├── browser.java
+│           ├── data_fetch.java
+│           └── excelsheet_data.java
+│
+└── FieldForceConnect_Manual_Testcases.xlsx
 
-## Author
-**Swayam Krishna Bhaidkar**  
-M.Sc. IT Student | Software Testing
+Project Details
 
-GitHub: https://github.com/nxt-swayam
-LinkedIn: https://linkedin.com/in/swayam-bhaidkar
+Project Type: Manual & Automation Testing
+Application Type: Web Application
+Testing Approach: Functional, Positive, Negative & Data-Driven Testing
+
+Author
+
+Swayam Krishna Bhaidkar
+QA | Software Testing
+
+- GitHub: https://github.com/nxt-swayam
+- LinkedIn: https://linkedin.com/in/swayam-bhaidkar
